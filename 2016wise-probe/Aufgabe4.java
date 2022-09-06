@@ -11,6 +11,7 @@ public class Aufgabe4 {
     }
 
     public static void main (String[] args) {
-        f(2147483647, 2147483647);
+
+        System.out.println(f(6,4));
     }
 }
