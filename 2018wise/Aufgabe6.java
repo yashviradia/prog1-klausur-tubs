@@ -58,5 +58,7 @@ class Aufgabe6 {
         } catch (IllegalArgumentException iAE) {
             System.out.println("No number was repeated.");
         }
+
+        
     }
 }

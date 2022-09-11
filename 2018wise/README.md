@@ -1,4 +1,4 @@
-# 2018wise Klausur
+# 2018wise
 
 - Aufgabe 1: 
     - Datentypen: b
