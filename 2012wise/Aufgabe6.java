@@ -1,18 +1,26 @@
 public class Aufgabe6 {
 
+    // need to work on this!
     public static void intersection (int[] a, int[] b) {
         int[] c = new int[10];
+        int count = 1;
 
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < b.length; j++) {
-                if (a[i] == a[j]) {
-                    c[i] = a[i];
+                if (a[i] == b[j]) {
+                    c[i] = b[i];    
+                    ++count;
                 }
             }
         }
 
-        for (int i = 0; i < c.length; i++) {
-            System.out.println(c[i]);
+        int[] intersectedArray = new int[count];
+        for (int i = 0; i < count; i++) {
+            intersectedArray[i] = c[i];
+        }
+
+        for (int i = 0; i < intersectedArray.length; i++) {
+            System.out.println(intersectedArray[i]);
         }
     }
 
